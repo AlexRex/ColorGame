@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.alextorres.quizGame.SendNewQuestion"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionSend"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/question" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/trueAnswerSend"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/trueAnswer" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondAnswerSend"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/secondAnswer" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdAnswerSend"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/thirdAnser" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeSelection"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:background="@drawable/flat_selector"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/sendQuestion"
+        android:text="@string/Send"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="false"
+        android:textColor="#FFF"
+        android:textSize="19sp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
